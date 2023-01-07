@@ -10,4 +10,9 @@ public class DataController {
     public String data(){
         return "Hello World...!";
     }
+
+    @GetMapping("/invokeMethod")
+    public String invokeMethod(){
+        return "Hello World...!";
+    }
 }
