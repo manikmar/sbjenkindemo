@@ -15,4 +15,9 @@ public class DataController {
     public String invokeMethod(){
         return "Hello World...!";
     }
+
+    @GetMapping("/mani")
+    public String maniMethod(){
+        return "Hello Mani World...!";
+    }
 }
