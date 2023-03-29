@@ -20,4 +20,9 @@ public class DataController {
     public String maniMethod(){
         return "Hello Mani World...!";
     }
+
+    @GetMapping("/uspass")
+    public String unAndPassUpdate(){
+        return "updated existing user name and password";
+    }
 }
