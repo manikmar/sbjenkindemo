@@ -26,4 +26,9 @@ public class DataController {
         return "updated existing user name and password";
     }
     /*Hi mani just for conflict demo */
+
+    @GetMapping("/us")
+    public String getDate(){
+        return "updated existing user name and password";
+    }
 }
